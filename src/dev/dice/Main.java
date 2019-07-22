@@ -3,6 +3,8 @@ package dev.dice;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        UserData userData = new UserData("FName", "SName");
+
+        System.out.println(userData);
     }
 }
